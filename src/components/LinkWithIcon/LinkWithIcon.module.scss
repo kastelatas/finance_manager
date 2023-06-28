@@ -1,0 +1,14 @@
+.linkWithIcon {
+  font-style: normal;
+  font-weight: 500;
+  color: #878787;
+
+  &:hover {
+    text-decoration: none;
+    color: #626161;
+  }
+
+  svg {
+    margin-left: 10px;
+  }
+}

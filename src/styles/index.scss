@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
+*,
+body {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+
+  .uk-notification {
+    &-message {
+      border: 1px solid #299d91;
+      border-radius: 8px;
+      margin-bottom: 4px;
+      div {
+        font-size: 17px;
+        line-height: 32px;
+      }
+    }
+  }
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.font12 {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.font14 {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.font16 {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.font18 {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.font20 {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.font22 {
+  font-size: 22px;
+  line-height: 32px;
+}
+
+.font24 {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.active {
+  background-color: #299d91;
+  color: #ffffff;
+  font-weight: 600;
+
+  &:hover {
+    background-color: #299d91;
+  }
+}
+a {
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.uk-tab {
+  margin-bottom: 12px;
+
+  a {
+    font-size: 16px;
+  }
+  &::before {
+    display: none !important;
+  }
+}
+
+.uk-active > a {
+  color: #299d91 !important;
+  border-bottom: 2px solid #299d91 !important;
+}
+
+.mt-16 {
+  margin-top: 16px;
+}
+
+.mt-32 {
+  margin-top: 32px;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}

@@ -1,0 +1,192 @@
+{
+  "user": {},
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Ivanov Ivan1",
+      "email": "test@mail.com",
+      "userName": "userName",
+      "password": "password",
+      "phone": "+38050161428",
+      "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADsAAAA5CAYAAACI7VO4AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFqSURBVGhD7ddBToNAGMVxr+NOL0U8Qq9Qdy7ctYkXsMalG3XvSr2BxBtouhx9JCQw+Yggb5r29S3+CQEy6Y9hoJx8fW/TsWSsasaqZqxqxqpmrGrGqmasanuBfanrdPFwn85vrpuwjX3RuXPaKfZ2c9fU3QfU2S/wdH3VC/vY4J1iq6pKy+Vlbx9mMYe24Vj33LkVx37Un81sAtq2WCzSarVujuO2jaAIx/Lx5lQU+/j03EPm4UJIYP+Cote398O/jTFjES4P6/fgH1BYjxEuCusZKMwibluEbTYUFcHiARTBhsLFwS0djcWsCDYCjSkaixkdixmKIGPCWo/GZGXsnI4KO+b9OlTphxQdm/81nFL+kcCOjp362umWfySwo2LH/nMaChcqGpcVFYuZiRBTKgmmYRnQtvbzjx0NG/3o/1ZqdmlYzAarUk9l6prd94xVzVjVjFXNWNWMVc1Y1YxVzVjVjFXNWM226QeZHvOOsLsj9QAAAABJRU5ErkJggg=="
+    },
+    {
+      "id": "fb6ffd93-08ca-4a68-8dd7-c35fd4819996",
+      "fullName": "kastelatas",
+      "email": "test2@mail.com",
+      "userName": "kastelatas",
+      "password": "password",
+      "phone": null,
+      "imageId": null
+    },
+    {
+      "id": "c95e38e0-0c40-429b-8065-3d49ad33dc49",
+      "fullName": "test3",
+      "email": "test3@mail.com",
+      "userName": "test3",
+      "password": "password",
+      "phone": null,
+      "imageId": null
+    },
+    {
+      "id": "2a541b50-b7d1-4cd3-8fa0-016b756919e0",
+      "fullName": "tets4",
+      "email": "test4@mail.com",
+      "userName": "tets4",
+      "password": "password",
+      "phone": null,
+      "imageId": null
+    },
+    {
+      "id": "2f895aa2-b4ec-474f-9a21-1b106ffdde42",
+      "fullName": "test5",
+      "email": "test5@mail.com",
+      "userName": "test5",
+      "password": "password",
+      "phone": null,
+      "imageId": null
+    },
+    {
+      "id": "69e4c56b-b29a-457f-a0bb-c895dbc29d35",
+      "fullName": "TEST FULL1",
+      "email": "test1@mail.com",
+      "userName": "test1",
+      "password": "password1",
+      "phone": "380512345689",
+      "imageId": null,
+      "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADsAAAA5CAYAAACI7VO4AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFqSURBVGhD7ddBToNAGMVxr+NOL0U8Qq9Qdy7ctYkXsMalG3XvSr2BxBtouhx9JCQw+Yggb5r29S3+CQEy6Y9hoJx8fW/TsWSsasaqZqxqxqpmrGrGqmasanuBfanrdPFwn85vrpuwjX3RuXPaKfZ2c9fU3QfU2S/wdH3VC/vY4J1iq6pKy+Vlbx9mMYe24Vj33LkVx37Un81sAtq2WCzSarVujuO2jaAIx/Lx5lQU+/j03EPm4UJIYP+Cote398O/jTFjES4P6/fgH1BYjxEuCusZKMwibluEbTYUFcHiARTBhsLFwS0djcWsCDYCjSkaixkdixmKIGPCWo/GZGXsnI4KO+b9OlTphxQdm/81nFL+kcCOjp362umWfySwo2LH/nMaChcqGpcVFYuZiRBTKgmmYRnQtvbzjx0NG/3o/1ZqdmlYzAarUk9l6prd94xVzVjVjFXNWNWMVc1Y1YxVzVjVjFXNWM226QeZHvOOsLsj9QAAAABJRU5ErkJggg=="
+    },
+    {
+      "id": "338c19c9-61a0-4645-bd4e-6ff410cb6cb4",
+      "fullName": "test2",
+      "email": "test2@mail.com",
+      "userName": "test2",
+      "password": "1234",
+      "phone": null,
+      "imageId": null
+    }
+  ],
+  "balances": [
+    {
+      "id": 1,
+      "name": "name",
+      "category": "category",
+      "accountNumber": "",
+      "balance": "",
+      "userId": 1
+    },
+    {
+      "bankName": "Bank2",
+      "branchName": "Branch 2",
+      "accountType": "Credit Card",
+      "accountNumber": "45448778665985",
+      "balanceAmount": "22222",
+      "id": "9a5807d9-d8e6-450d-9e27-d9cb2a44e4c6",
+      "userId": "69e4c56b-b29a-457f-a0bb-c895dbc29d35"
+    }
+  ],
+  "goals": {},
+  "settings": {},
+  "transactions": [
+    {
+      "item": "Item",
+      "shopName": "Shop Name",
+      "date": "2023-06-26T21:00:00.000Z",
+      "paymentMethod": "Credit Card",
+      "amount": "124",
+      "revenue": true,
+      "expenses": false,
+      "id": "3ee5705d-34c4-4f84-9808-3b1248f344a3",
+      "userId": "69e4c56b-b29a-457f-a0bb-c895dbc29d35"
+    },
+    {
+      "item": "Item2",
+      "shopName": "Shop Name",
+      "date": "2023-06-26T21:00:00.000Z",
+      "paymentMethod": "Credit Card",
+      "amount": "1243",
+      "revenue": false,
+      "expenses": true,
+      "id": "b56ff026-64e9-43ca-8e0a-fd164e765bf5",
+      "userId": "69e4c56b-b29a-457f-a0bb-c895dbc29d35"
+    },
+    {
+      "item": "item3",
+      "shopName": "shop name 3",
+      "date": "2023-06-27T21:00:00.000Z",
+      "paymentMethod": "Savings",
+      "amount": "522",
+      "revenue": false,
+      "expenses": true,
+      "id": "7fcb39fe-f1d5-43ac-bcb3-fffa2771cf03",
+      "userId": "69e4c56b-b29a-457f-a0bb-c895dbc29d35"
+    },
+    {
+      "item": "item 4",
+      "shopName": "shop name 5",
+      "date": "2023-06-19T21:00:00.000Z",
+      "paymentMethod": "Investment",
+      "amount": "664",
+      "revenue": false,
+      "expenses": true,
+      "id": "b94ce061-c59e-4b40-baed-2348d57de2b5",
+      "userId": "69e4c56b-b29a-457f-a0bb-c895dbc29d35"
+    },
+    {
+      "item": "item 5",
+      "shopName": "sasdfasdf",
+      "date": "2023-06-13T21:00:00.000Z",
+      "paymentMethod": "Savings",
+      "amount": "15124",
+      "revenue": false,
+      "expenses": true,
+      "id": "95667d62-6e87-4d69-9a9d-65eb155896e4",
+      "userId": "69e4c56b-b29a-457f-a0bb-c895dbc29d35"
+    },
+    {
+      "item": "item7",
+      "shopName": "sdfgsdf",
+      "date": "2023-06-06T21:00:00.000Z",
+      "paymentMethod": "Checking",
+      "amount": "21314",
+      "revenue": true,
+      "expenses": false,
+      "id": "b67dd9ff-fc59-4cdd-a808-cf5048ac4217",
+      "userId": "69e4c56b-b29a-457f-a0bb-c895dbc29d35"
+    }
+  ],
+  "finance": {},
+  "media": [],
+  "bills": [
+    {
+      "date": "2023-06-27T21:00:00.000Z",
+      "logo": "logo",
+      "title": "title",
+      "description": "descr",
+      "lastChange": "2023-06-27T22:49:54.962Z",
+      "amount": "856",
+      "userId": "69e4c56b-b29a-457f-a0bb-c895dbc29d35",
+      "id": 1
+    },
+    {
+      "date": "2023-06-25T21:00:00.000Z",
+      "logo": "logo",
+      "title": "title2",
+      "description": "DescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescription",
+      "lastChange": "2023-06-27T22:58:17.263Z",
+      "amount": "234",
+      "userId": "69e4c56b-b29a-457f-a0bb-c895dbc29d35",
+      "id": 2
+    },
+    {
+      "date": "2023-06-18T21:00:00.000Z",
+      "logo": "logo",
+      "title": "Title 3",
+      "description": "DescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescription",
+      "lastChange": "2023-06-27T23:01:31.871Z",
+      "amount": "111",
+      "userId": "69e4c56b-b29a-457f-a0bb-c895dbc29d35",
+      "id": 3
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  position: relative;
+  width: 100%;
+  max-width: 350px;
+  .input {
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    padding: 12px 32px;
+    outline: none;
+    font-size: 16px;
+    &::placeholder {
+      font-size: 16px;
+      color: #9f9f9f;
+    }
+    &:focus::placeholder {
+      color: transparent;
+    }
+  }
+  .searchIcon {
+    position: absolute;
+    right: 24px;
+    top: 9px;
+    cursor: pointer;
+  }
+}

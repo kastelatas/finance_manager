@@ -1,0 +1,15 @@
+.balance {
+  position: relative;
+  .table-wrapper {
+    padding: 24px 32px 40px 32px;
+    box-shadow: 0px 20px 25px 0px rgba(76, 103, 100, 0.1);
+    background: var(--white, #fff);
+    border-radius: 16px;
+
+    button {
+      max-width: 198px;
+      display: block;
+      margin: 0 auto;
+    }
+  }
+}

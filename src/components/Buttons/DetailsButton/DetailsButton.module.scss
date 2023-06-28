@@ -1,0 +1,22 @@
+.DetailsButton {
+    background-color: #299D91;
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    &:hover {
+        transition: transform 0.3s ease;
+        transform: scale(1.03);
+    }
+    &:not(:hover) {
+        transition: transform 0.3s ease;
+        transform: scale(1);
+    }
+}
+

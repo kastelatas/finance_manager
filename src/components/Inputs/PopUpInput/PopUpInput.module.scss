@@ -1,0 +1,29 @@
+.container {
+  max-width: 360px;
+  display: flex;
+  flex-direction: row;
+
+  .intputTite {
+    font-weight: 600;
+    font-size: 16px;
+    color: #525256;
+    margin: 0;
+  }
+
+  .input {
+    border: solid 1px #d1d1d1;
+    padding: 16px 24px;
+    border-radius: 8px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    color: #525256;
+    margin-top: 8px;
+    &::placeholder {
+      color: #878787;
+    }
+    &:focus::placeholder {
+      color: transparent;
+    }
+  }
+}

@@ -1,0 +1,77 @@
+.expensesItem {
+  width: 100%;
+  height: 100%;
+  max-width: 226px;
+  padding: 22px;
+  border-bottom: 1px solid #d1d1d1;
+  border-right: 1px solid #d1d1d1;
+  cursor: pointer;
+
+  &:hover {
+    .arrowIcon {
+      path {
+        stroke: #299d91;
+      }
+    }
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+
+    .iconWrapper {
+      width: 40px;
+      height: 56px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(210, 210, 210, 0.25);
+      border-radius: 8px;
+      margin-right: 16px;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .title {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 16px;
+      color: #878787;
+    }
+
+    .price {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 24px;
+      text-transform: capitalize;
+      color: #191919;
+    }
+
+    .simile {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 16px;
+      color: #9f9f9f;
+    }
+  }
+
+  .arrowIcon {
+    margin-left: 20px;
+  }
+}
+
+.expensesItem-4,
+.expensesItem-5,
+.expensesItem-6 {
+  border-bottom: none;
+}
+
+.expensesItem-3,
+.expensesItem-6 {
+  border-right: none;
+}

@@ -1,0 +1,30 @@
+.siginUp {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .formTitle {
+      margin-top: 36px;
+      margin-bottom: 0;
+      font-weight: 700;
+      font-size: 24px;
+      color: #191D23;
+    }
+    .sigInText {
+      margin-top: 40px;
+      font-weight: 400;
+      font-size: 16px;
+      color: #999da3;
+      .colorText {
+        font-weight: 600;
+        font-size: 16px;
+        color: #299d91;
+        text-decoration: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+.adjustButton {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    color: #299D91;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px 16px;
+    border: 1px solid #299D91;
+    border-radius: 4px;
+    transition: .2s;
+    cursor: pointer;
+    .buttonIcon{
+        margin-left: 8px;
+    }
+    &:hover {
+        transition: .2s;
+        background-color: #299D91;
+        color: #fff;
+        .buttonIcon{
+            path{
+                stroke: #fff;
+            }
+        }
+    }
+}

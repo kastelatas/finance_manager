@@ -1,0 +1,16 @@
+.mainLayout {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background: #f4f5f7;
+
+  .mainLayoutWrapper {
+    width: 100%;
+  }
+
+  .mainLayoutContent {
+    width: 100%;
+    max-width: 1184px;
+    padding: 16px 32px 35px 24px;
+  }
+}

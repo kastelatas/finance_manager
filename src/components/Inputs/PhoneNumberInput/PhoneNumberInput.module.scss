@@ -1,0 +1,59 @@
+.inputContaier {
+  max-width: 400px;
+  user-select: none;
+
+  .input {
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid #4b5768;
+    padding: 11px 60px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #d0d5dd;
+    outline: none;
+
+    &:focus {
+      transition: 0.2s;
+      border-color: #d0d5dd;
+      color: #4b5768;
+      background-color: transparent;
+      outline: none;
+      box-shadow: none;
+    }
+
+    &::placeholder {
+      color: #4b5768;
+      font-size: 16px;
+    }
+
+    &:focus::placeholder {
+      color: transparent;
+    }
+  }
+
+  .dropDownButton {
+    background-color: transparent;
+  }
+
+  .dropdown {
+    background-color: #fff;
+    color: #299d91;
+    border-radius: 8px;
+    &::-webkit-scrollbar {
+      width: 10px;
+    }
+    &::-webkit-scrollbar-track {
+      background: #299d91;
+      border-radius: 8px;
+    }
+    &::-webkit-scrollbar-thumb {
+      background-color: #1e1e1e; /* цвет бегунка */
+      border-radius: 8px; /* округлось бегунка */
+      border: 1.5px solid #299d91; /* отступ вокруг бегунка */
+    }
+    li {
+      background-color: transparent !important;
+    }
+  }
+}

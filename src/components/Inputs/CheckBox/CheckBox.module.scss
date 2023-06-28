@@ -1,0 +1,22 @@
+.checkBox {
+  display: none;
+}
+.label {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+  background-color: #d0d5dd;
+  transition: 0.2s;
+  cursor: pointer;
+
+  p {
+    padding-left: 30px;
+  }
+}
+
+.checkBox:checked + .label {
+  transition: 0.2s;
+  background-color: #299d91;
+  background-image: url("../../../assets/Icons/Checkmark.svg");
+}

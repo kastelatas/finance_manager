@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  justify-content: center;
+  font-family: 'Poppins';
+  color: #299D91;
+  width: 450px;
+  font-size: 40px;
+  line-height: 32px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 0.08em;
+  span{
+    font-weight: 800;
+  }
+}

@@ -1,0 +1,194 @@
+.account-detail {
+  background: var(--white, #ffffff);
+  border-radius: 8px;
+  padding: 32px 32px 40px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  box-shadow: var(
+    --shadow-01-box-shadow,
+    0px 20px 25px 0px rgba(76, 103, 100, 0.1)
+  );
+
+  .details {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .top-line {
+    display: flex;
+    flex-direction: row;
+    gap: 101px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .bank-name {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .bank-name2 {
+    color: var(--gray-03, #9f9f9f);
+    text-align: left;
+    font: 400 16px/24px "Inter", sans-serif;
+    position: relative;
+    width: 216px;
+  }
+  .ab-bank-ltd {
+    color: var(--secondary, #525256);
+    text-align: left;
+    font: 700 18px/20px "Inter", sans-serif;
+    position: relative;
+    width: 216px;
+  }
+  .account-type {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .account-type2 {
+    color: var(--gray-03, #9f9f9f);
+    text-align: left;
+    font: 400 16px/24px "Inter", sans-serif;
+    position: relative;
+    width: 216px;
+  }
+  .checking {
+    color: var(--secondary, #525256);
+    text-align: left;
+    font: 700 18px/20px "Inter", sans-serif;
+    position: relative;
+    width: 216px;
+  }
+  .balance {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .balance2 {
+    color: var(--gray-03, #9f9f9f);
+    text-align: left;
+    font: 400 16px/24px "Inter", sans-serif;
+    position: relative;
+    width: 216px;
+  }
+  ._25-056-00 {
+    color: var(--secondary, #525256);
+    text-align: left;
+    font: 700 18px/20px "Inter", sans-serif;
+    position: relative;
+    width: 216px;
+  }
+  .bottom-line {
+    display: flex;
+    flex-direction: row;
+    gap: 101px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .branch-name {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .branch-name2 {
+    color: var(--gray-03, #9f9f9f);
+    text-align: left;
+    font: 400 16px/24px "Inter", sans-serif;
+    position: relative;
+    width: 216px;
+  }
+  .park-street-branch {
+    color: var(--secondary, #525256);
+    text-align: left;
+    font: 700 18px/20px "Inter", sans-serif;
+    position: relative;
+    width: 216px;
+  }
+  .account-number {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .account-number2 {
+    color: var(--gray-03, #9f9f9f);
+    text-align: left;
+    font: 400 16px/24px "Inter", sans-serif;
+    position: relative;
+    width: 216px;
+  }
+  ._133-456-886-8 {
+    color: var(--secondary, #525256);
+    text-align: left;
+    font: 700 18px/20px "Inter", sans-serif;
+    position: relative;
+    width: 216px;
+  }
+  .button {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .button-big {
+    background: var(--primarycolor, #299d91);
+    border-radius: 4px;
+    padding: 12px 8px 12px 8px;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .add-accounts {
+    color: var(--white, #ffffff);
+    text-align: center;
+    font: var(--bold-16-24, 700 16px/24px "Inter", sans-serif);
+    position: relative;
+    width: 144px;
+  }
+  .remove {
+    color: var(--gray-01, #666666);
+    text-align: right;
+    font: 600 14px/24px "Inter", sans-serif;
+    position: relative;
+    width: 64px;
+  }
+}

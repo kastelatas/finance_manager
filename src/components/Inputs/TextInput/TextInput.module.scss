@@ -1,0 +1,25 @@
+.TextInput {
+  background-color: transparent;
+  border: 1px solid #d0d5dd;
+  max-width: 400px;
+  width: 100%;
+  padding: 12px 16px;
+  border-radius: 8px;
+  outline-color: #d0d5dd;
+  outline: none;
+  color: #4b5768;
+  transition: 0.2s;
+  &:focus {
+    transition: 0.2s;
+    border-color: #4b5768;
+    outline-color: #D0D5DD;
+    outline-style: none;
+  }
+  &::placeholder {
+    color: #4b5768;
+    font-size: 16px;
+  }
+  &:focus::placeholder {
+    color: transparent;
+  }
+}

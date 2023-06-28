@@ -1,0 +1,12 @@
+.expensesBreakdown {
+  margin-left: 24px;
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    background: #fff;
+    padding: 20px 24px;
+    margin-top: 5px;
+    max-width: 728px;
+  }
+}

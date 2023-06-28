@@ -1,0 +1,64 @@
+.add-account {
+  max-height: 288px;
+  background: var(--white, #ffffff);
+  border-radius: 8px;
+  padding: 100px 24px 88px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 352px;
+  position: relative;
+  box-shadow: var(
+    --shadow-01-box-shadow,
+    0px 20px 25px 0px rgba(76, 103, 100, 0.1)
+  );
+}
+.button {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  cursor: pointer;
+}
+.button-big {
+  background: var(--primarycolor, #299d91);
+  border-radius: 4px;
+  padding: 12px 32px 12px 32px;
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.add-accounts {
+  color: var(--white, #ffffff);
+  text-align: center;
+  font: var(--bold-16-24, 700 16px/24px "Poppins", sans-serif);
+  position: relative;
+  width: 144px;
+}
+.edit-wrapper {
+  padding: 12px 24px 12px 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.edit-accounts {
+  color: var(--gray-03, #9f9f9f);
+  text-align: center;
+  font: var(--medium-16-24, 500 16px/24px "Poppins", sans-serif);
+  position: relative;
+  width: 160px;
+}

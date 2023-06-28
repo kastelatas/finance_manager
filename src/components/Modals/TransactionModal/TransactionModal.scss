@@ -1,0 +1,50 @@
+.transaction-modal {
+  min-width: 400px;
+  &__form {
+    margin-top: 10px;
+    .input-wrapper {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 10px;
+
+      label {
+        margin-bottom: 5px;
+      }
+
+      input {
+        font-size: 16px;
+      }
+    }
+
+    .react-date-picker__wrapper {
+      background-color: transparent;
+      border: 1px solid #d0d5dd;
+      max-width: 400px;
+      width: 100%;
+      padding: 7px 16px;
+      border-radius: 8px;
+      outline-color: #d0d5dd;
+      outline: none;
+      color: #4b5768;
+      transition: 0.2s;
+    }
+
+    .react-select:focus {
+      border-color: #ff0000; /* Желаемый цвет границы при фокусировке */
+      box-shadow: 0 0 0 2px rgba(255, 0, 0, 0.2); /* Желаемая тень при фокусировке */
+    }
+  }
+
+  &__button-create {
+    background-color: #299d91;
+    color: #fff;
+    padding: 12px 0px;
+    border-radius: 4px;
+    max-width: 400px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+  }
+}

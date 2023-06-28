@@ -1,0 +1,60 @@
+.header {
+  max-width: 1167px;
+  border-bottom: 1px solid #e8e8e8;
+  .container {
+    padding: 20px 32px 20px 24px;
+    display: flex;
+    justify-content: space-between;
+
+    .left-side {
+      display: flex;
+      align-items: center;
+
+      .title {
+        color: #191919;
+        font-weight: 700;
+        margin-right: 24px;
+      }
+
+      .date {
+        display: flex;
+        align-items: center;
+        span {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 20px;
+          color: #9f9f9f;
+          margin-left: 8px;
+        }
+      }
+    }
+
+    .right-side {
+      max-width: 416px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .notification-wrapper {
+        position: relative;
+        cursor: pointer;
+
+        &:after {
+          content: "";
+          width: 8px;
+          height: 8px;
+          border-radius: 50%;
+          background: #299d91;
+          display: block;
+          position: absolute;
+          top: 2px;
+          right: -2px;
+        }
+        .notification-icon {
+        }
+      }
+    }
+  }
+}
