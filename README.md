@@ -16,7 +16,7 @@ Financial Manager is a web application developed for managing finances and keepi
 1. Clone the repository:
 
 ```
-git clone https://github.com/My-finance-org/finance_manager.git
+git clone https://github.com/finance_manager.git
 ```
 
 2. Navigate to the project directory:
